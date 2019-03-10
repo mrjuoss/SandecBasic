@@ -29,6 +29,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="16dp"
+                android:onClick="goRide"
                 android:src="@drawable/menu_goride" />
 
             <ImageView
@@ -36,6 +37,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="16dp"
+                android:onClick="goMart"
                 android:src="@drawable/menu_gomart" />
 
         </LinearLayout>
@@ -50,6 +52,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="16dp"
+                android:onClick="goFood"
                 android:src="@drawable/menu_gofood" />
 
             <ImageView
@@ -57,6 +60,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="16dp"
+                android:onClick="goSend"
                 android:src="@drawable/menu_gosend" />
 
         </LinearLayout>
