@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="80dp"
+    tools:context=".OrderFoodActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:src="@drawable/delivery"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="18sp"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="18sp"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_pesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesanan"
+        android:textSize="18sp"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btn_cancel_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CANCEL ORDER"
+        android:background="#ff0000"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        />
+</LinearLayout>
